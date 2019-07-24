@@ -17,6 +17,6 @@ def decoding(encode_str,n):
             decode_str += i
     return decode_str
 
-text = "KYV HLZTB SIFNE WFO ALDGJ FMVI KYV CRQP UFX FW TRVJRI REU PFLI LEZHLV JFCLKZFE ZJ CCTEZXXWDJST"
+text = ""
 for i in range(1,40):
     print str(i) + ","+"=>"+decoding(text,i)+" Key="+str(i)
